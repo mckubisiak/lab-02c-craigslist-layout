@@ -1,53 +1,45 @@
 main {
     display: grid;
-    height: 800px;
-    max-width: 1000px;
+    max-width: 800px;
     margin: auto;
-    background: lightgrey;
     grid-template-columns: 150px 1fr 100px;
-    text-align: center;.
+    text-align: center;
 }
 .navigation {
-    border: 1px solid black;
-    background-color: cadetblue;
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+    background-color: lightgrey;
 }
 header {
-       background-color: green;
+       font-size: 20px;
        margin: 0px 5px;
-       border: 1px solid black;
-       height: 100px;
+       background-color: lightgrey;
+       border-bottom: 1px solid grey;
+       border-top: 1px solid grey;
 }
 .belowHeader {
-    height: 700px;
     width: 1fr;
     display: grid;
-    border: 1px solid black;
-    background-color:darkorange;
     margin: 5px;
     grid-template-columns: 1fr 250px 1fr;
 }
 .sideBarRight {
-    border: 1px solid black;
-    background-color:darkslateblue ;
-    
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+    background-color: lightgrey;
 }
 .contentRight {
-    border: 1px solid black;
-    background-color:darkviolet;
     margin: 5px;
 }
 .contentMid  {
-        border: 1px solid black;
-        background-color:green;
         margin: 5px 0px;
 }
 .contentLeft {
-    border: 1px solid black;
-    background-color:crimson;
     margin: 5px;
 }
 .community ul {
     list-style: none;
+    text-align: left;
     padding: 0;
     column-count: 2;
     font-family: sans-serif;
@@ -56,6 +48,7 @@ header {
 }
 .services ul {
     list-style: none;
+    text-align: left;
     padding: 0;
     column-count: 2;
     font-family: sans-serif;
@@ -64,6 +57,7 @@ header {
 }
 .discussionforums ul {
     list-style: none;
+    text-align: left;
     list-style-type: none;
     padding: 0;
     column-count: 3;
@@ -71,4 +65,65 @@ header {
     font-size: .8rem;
     color: blue;
 }
+.housing ul {
+    list-style: none;
+    text-align: left;
+    list-style-type: none;
+    padding: 0;
+    column-count: 1;
+    font-family: sans-serif;
+    font-size: .8rem;
+    color: blue;
+}
+.forSale ul {
+    list-style: none;
+    text-align: left;
+    list-style-type: none;
+    padding: 0;
+    column-count: 2;
+    font-family: sans-serif;
+    font-size: .8rem;
+    color: blue;
+}
+.jobs ul {
+    list-style: none;
+    text-align: left;
+    list-style-type: none;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: .8rem;
+    color: blue;
+}
+.gigs ul {
+    list-style: none;
+    text-align: left;
+    list-style-type: none;
+    padding: 0;
+    column-count: 2;
+    font-family: sans-serif;
+    font-size: .8rem;
+    color: blue;
+}
+.sideBarRight ul {
+    list-style: none;
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: .8rem;
+    color: blue;
+}
+    li {
+    border-bottom: 1px solid lightgrey;
+    margin: 2px 0;
+    font-size: 10px;
+}
+
+.category {
+    display: block;
+    background-color: lightgrey;
+    color: blue;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+    }
 
